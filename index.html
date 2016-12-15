@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<head>
+	<title>The Daily Gifts - find your gift right now!</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./favicon.png" type="image/png">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="container text-center">
+		<img src="./the-daily-gifts.jpg"> 
+		<a id="find" class="btn btn-default">Искать <span class="glyphicon glyphicon-gift"></span> сейчас!</a>
+    </div>
+	
+	<div class="container-fluid">
+		<div class="text-center" id="loader">
+			<p>Ищем призы прямо сейчас</p>
+			<img src="./load.gif">
+		</div>
+		<div class="hide text-center" id="result-count">
+			<p>Найдено призов: <b>0</b></p>
+		</div>
+		
+		<div class="row text-center" id="result"></div>
+	</div>
+		
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted">Created by <a class="text-muted" href="https://vk.com/poletaew">Michael Poletaew</a></p>
+		</div>
+    </div>
+	
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.spritely/0.6.8/jquery.spritely.js"></script>
+	<script src="./dg.js"></script>
+
+	<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter33753664 = new Ya.Metrika({ id:33753664, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/33753664" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+</body>
